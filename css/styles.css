@@ -120,6 +120,23 @@ body {
   inherits: color var(--third-title-color);
   color: var(--third-title-color);
 }
+.header-tel::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  background-image: url(../images/Lovepik_com-401486772-mobile-phone-icon.png);
+  background-size: contain;
+}
+.header-web::before {
+  content: "___";
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  background-image: url(../images/envelope.svg);
+  background-size: contain;
+}
 .header-web {
   margin-right: 40px;
   font-family: Roboto;
@@ -175,7 +192,20 @@ body {
   padding-top: 200px;
   padding-bottom: 200px;
   margin: 0 auto;
-  background-color: var(--footer-background-color);
+  background: rgba(196, 196, 196, 1);
+  background: linear-gradient(
+    90deg,
+    rgba(47, 48, 58, 0.4) 0%,
+    rgba(0, 0, 0, 0) 70%
+  );
+  background-image: url(../images/first-pg-hero.jpg);
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1600;
+  height: 600;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 .hero-title {
   font-weight: 900;
@@ -203,6 +233,12 @@ body {
   line-height: 1.18;
   letter-spacing: 0.03em;
   text-align: center;
+}
+.box-description-pic {
+  width: 270 px;
+  height: 120px;
+  background-color: var(--backgroud-color);
+  margin-bottom: 30px;
 }
 .plus-description {
   font-style: normal;
@@ -362,6 +398,10 @@ body {
 }
 .portfolio-btn-box:not(:last-child) {
   margin-right: 10px;
+}
+.portfolio-card:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 .card-set {
   display: flex;
