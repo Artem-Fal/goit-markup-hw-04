@@ -52,7 +52,7 @@ body {
   margin: 0 auto;
 }
 .header-item:not(last-child) {
-  margin-right: 30px;
+  margin-right: 50px;
 }
 .header-logo {
   margin-right: 90px;
