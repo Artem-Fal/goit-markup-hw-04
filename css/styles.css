@@ -336,6 +336,21 @@ body {
 .client-logo:not(:last-child) {
   margin-right: 25px;
 }
+.button-icon {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+.button-web {
+  padding: 0;
+  border: none;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+.button-web:hover {
+  background-color: var(--accent-color);
+}
 /*-------------------------------Footer---------------------------------*/
 .footer-logo {
   font-family: Raleway;
