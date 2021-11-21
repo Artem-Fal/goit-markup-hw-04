@@ -43,6 +43,7 @@ body {
 }
 .link {
   text-decoration: none;
+  color: var(--third-title-color);
 }
 /*-------------------------------HEADER---------------------------------*/
 .container {
@@ -53,6 +54,15 @@ body {
 }
 .header-item:not(last-child) {
   margin-right: 50px;
+}
+.icon-envelope {
+  display: inline-block;
+  size-adjust: auto;
+  margin-right: 10px;
+  align-items: center;
+}
+.icon-envelope:hover {
+  font: var(--accent-color);
 }
 .header-logo {
   margin-right: 90px;
@@ -72,6 +82,8 @@ body {
   align-items: center;
 }
 .header-connect {
+  display: flex;
+  align-items: center;
   margin-left: auto;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -120,23 +132,7 @@ body {
   inherits: color var(--third-title-color);
   color: var(--third-title-color);
 }
-.header-tel::before {
-  content: "";
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  margin-right: 10px;
-  background-image: url(../images/Lovepik_com-401486772-mobile-phone-icon.png);
-  background-size: contain;
-}
-.header-web::before {
-  content: "___";
-  width: 20px;
-  height: 20px;
-  margin-right: 10px;
-  background-image: url(../images/envelope.svg);
-  background-size: contain;
-}
+
 .header-web {
   margin-right: 40px;
   font-family: Roboto;
@@ -150,7 +146,12 @@ body {
 }
 .header-web:hover {
   color: var(--accent-color);
+  fill: var(--accent-color);
 }
+.icon-envelope:hover {
+  fill: var(--accent-color);
+}
+
 .header-tel:hover {
   color: var(--accent-color);
 }
@@ -265,6 +266,11 @@ body {
   height: 650px;
   padding-bottom: 90px;
 }
+.middle__icon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 .team-pad {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -287,7 +293,6 @@ body {
 }
 .description-prons {
   padding-top: 95px;
-  padding-bottom: 95px;
 }
 .box-description {
   width: 270px;
@@ -382,6 +387,14 @@ body {
 /*-------------------------------ПОРТФОЛИО мейн---------------------------------*/
 .visually-hidden {
   visibility: hidden;
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  overflow: hidden;
 }
 .hero-portfolio-btn {
   display: flex;
