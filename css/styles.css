@@ -265,6 +265,7 @@ body {
   background-color: #f5f4fa;
   height: 650px;
   padding-bottom: 90px;
+  padding-top: 90px;
 }
 .middle__icon {
   display: block;
@@ -322,9 +323,20 @@ body {
   letter-spacing: 0.03em;
   color: var(--second-title-color);
   margin-bottom: 50px;
-  padding-top: 95px;
 }
-
+.client-logo {
+  display: inline-block;
+  height: 90px;
+  width: 170px;
+  border-radius: 2px;
+  border-color: #757575;
+  background-color: #757575;
+  justify-content: center;
+  margin-bottom: 95px;
+}
+.client-logo:not(:last-child) {
+  margin-right: 25px;
+}
 /*-------------------------------Footer---------------------------------*/
 .footer-logo {
   font-family: Raleway;
