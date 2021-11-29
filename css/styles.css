@@ -268,7 +268,8 @@ body {
   padding-top: 94px;
 }
 .middle__icon {
-  display: inline-flexbox;
+  display: flex;
+  align-items: center;
   justify-content: center;
 }
 .team-pad {
@@ -341,12 +342,18 @@ body {
   height: 20px;
   fill: currentColor;
 }
+.button-icon:hover {
+  fill: #ffffff;
+}
 .button-web {
   padding: 0;
   border: none;
   width: 45px;
   height: 45px;
   border-radius: 50%;
+  display: inline-flexbox;
+  justify-content: center;
+  align-items: center;
 }
 .button-web:hover {
   background-color: var(--accent-color);
