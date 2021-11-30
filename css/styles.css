@@ -327,19 +327,7 @@ body {
 .client-svg {
   fill: red;
 }
-.client-logo {
-  display: inline-block;
-  height: 90px;
-  width: 170px;
-  border-radius: 2px;
-  border-color: #757575;
-  background-color: #757575;
-  justify-content: center;
-  margin-bottom: 95px;
-}
-.client-logo:not(:last-child) {
-  margin-right: 25px;
-}
+
 .button-icon {
   width: 20px;
   height: 20px;
@@ -385,6 +373,38 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.client-link {
+  display: inline-flex;
+  width: 100%;
+  height: 100%;
+  border: 1px solid color rgba(175, 177, 184, 1);
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  color: rgba(175, 177, 184, 1);
+}
+.client-item {
+  display: inline-flex;
+  width: 170px;
+  height: 92px;
+  border: 1px solid color rgba(175, 177, 184, 1);
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+}
+.client-item {
+  margin-left: 20px;
+}
+.client-link:hover,
+.client-link:focus {
+  border-color: #2196f3;
+  fill: #2196f3;
+}
+.client-item:hover,
+.client-item:focus {
+  border-color: #2196f3;
+  color: #2196f3;
 }
 /*-------------------------------Footer---------------------------------*/
 .footer-logo {
