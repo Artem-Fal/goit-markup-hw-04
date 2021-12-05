@@ -61,7 +61,16 @@ body {
   margin-right: 10px;
   align-items: center;
 }
+.icon-telephone {
+  display: inline-block;
+  size-adjust: auto;
+  margin-right: 10px;
+  align-items: center;
+}
 .icon-envelope:hover {
+  font: var(--accent-color);
+}
+.icon-telephone:hover {
   font: var(--accent-color);
 }
 .header-logo {
@@ -73,8 +82,6 @@ body {
 .header-navigation {
   display: flex;
   align-items: center;
-  padding-top: 32px;
-  padding-bottom: 32px;
   inline-size: block;
 }
 .header-container {
@@ -85,8 +92,6 @@ body {
   display: flex;
   align-items: center;
   margin-left: auto;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .header {
@@ -106,6 +111,11 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--second-title-color);
+}
+.header-link-dark {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .web-logo {
   font-family: Raleway;
@@ -149,6 +159,9 @@ body {
   fill: var(--accent-color);
 }
 .icon-envelope:hover {
+  fill: var(--accent-color);
+}
+.icon-telephone:hover {
   fill: var(--accent-color);
 }
 
