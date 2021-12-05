@@ -142,6 +142,13 @@ body {
   inherits: color var(--third-title-color);
   color: var(--third-title-color);
 }
+.header-web,
+.header-tel {
+  display: inline-flex;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  align-items: center;
+}
 
 .header-web {
   margin-right: 40px;
