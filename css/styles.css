@@ -472,6 +472,29 @@ body {
   letter-spacing: 0.03em;
   color: var(--footer-mail-color);
 }
+.footer-adress {
+  font-family: var(--basic-text);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.footer-logo {
+  display: block;
+  margin-bottom: 20px;
+
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.footer-logo span {
+  color: #2196f3;
+}
 .footer-list {
   width: 231px;
   height: 81px;
