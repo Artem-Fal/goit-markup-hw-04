@@ -449,6 +449,7 @@ body {
   height: 252px;
   padding-top: 60px;
   padding-bottom: 60px;
+  display: flex;
 }
 .footer-item + .footer-item {
   margin-top: 10px;
