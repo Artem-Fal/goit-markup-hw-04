@@ -166,6 +166,12 @@ body {
   color: var(--accent-color);
   fill: var(--accent-color);
 }
+.header-web:focus {
+  color: var(--accent-color);
+}
+.header-tel:focus {
+  color: var(--accent-color);
+}
 .icon-envelope:hover {
   fill: var(--accent-color);
 }
@@ -314,7 +320,6 @@ body {
 }
 .box-description {
   width: 270px;
-  height: 100px;
   display: inline-block;
 }
 .box-description:not(:last-child) {
@@ -551,6 +556,9 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
+}
+.footer-social {
+  margin-left: 70px;
 }
 .social-list {
   display: flex;
